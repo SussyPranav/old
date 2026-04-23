@@ -34,7 +34,7 @@ const parseText = (text) => {
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "https://esm.run/@google/generative-ai";
 
 const MODEL_NAME = "gemini-1.0-pro";
-const API_KEY = "AIzaSyBCD4kC9VSFYccINuUiqAv0bk-TKjOH39Q";
+const API_KEY = "idk";
 
 async function runChat() {
   const genAI = new GoogleGenerativeAI(API_KEY);
